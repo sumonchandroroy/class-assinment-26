@@ -1,0 +1,195 @@
+
+.our-awesome{}
+.our-awesome h6 {
+	color: #7692EF;
+}
+.our-awesome h1{
+    font-weight: 600;
+}
+.befor {
+	position: relative;
+	margin-bottom: 33px;
+}
+.befor::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 50px;
+	height: 2px;
+	background-color: #7692EF;
+}
+.our-awesome p {
+	color: #7d717b;
+}
+
+.text-center {
+	display: inline-block;
+	border: 1px solid #ddd;
+	height: 133px;
+	text-align: center;
+	line-height: 133px;
+	width: 201px;
+	margin-left: -6px;
+    opacity: 25%;
+    transition: .5s;
+}
+
+.text-center:hover{
+    opacity: 1;
+}
+.img-left {
+	margin-top: 27px;
+}
+.img-left img{}
+
+
+ 
+.blog{
+    text-align: center;
+    margin-top: 70px;
+}
+.blog h6 {
+	color: #7692EF;
+	margin-left: 77px;
+}
+.blog h1{
+    font-weight: 600;
+}
+.blog p{
+    	color: #7d717b;
+}
+
+.befor-center{
+	position: relative;
+	margin-bottom: 33px;
+}
+.befor-center::after {
+	content: "";
+	position: absolute;
+	left: 240px;
+	top: 6px;
+	width: 50px;
+	height: 2px;
+	background-color: #7692EF;
+}
+
+
+
+ 
+.container{
+    max-width: 100%;
+}
+ img{
+     max-width: 100%;
+ }
+
+.img-items {
+	position: relative;
+}
+
+.item-section h4 {
+	margin-top: 14px;
+}
+.item-section p{}
+
+
+.hover-img {
+	display: flex;
+	background: #3763eb;
+	width: 196px;
+	position: absolute;
+	bottom: 161px;
+	right: 15px;
+	padding: 4px;
+	color: #fff;
+	border-radius: 26px;
+}
+.hover-img img {
+	display: flex;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+.hover-img h5 {
+	line-height: 36px;
+	font-size: 17px;
+	margin-left: 12px;
+	height: 22px;
+	font-weight: 600;
+}
+
+/* .hover-img{
+	opacity: 0;
+	transition: 1.5s;
+}
+.img-items:hover .hover-img{
+       opacity:1 ;
+
+
+} */
+
+
+/*.footer-section css*/
+
+.footer-section{
+	background-color: #081828;
+	
+}
+
+.footer-section img {
+	width: 157px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.footer-section li{
+	list-style: none;
+	color: #fff;
+}
+
+.icon-list{}
+.icon-list ul {
+	margin-top: 38px;
+}
+.icon-list ul li {
+	display: inline-block;
+	padding: 10px;
+}
+.icon-list ul li a{
+    color: #fff;
+	transition: .4s;
+}
+.icon-list ul li a:hover{
+	color: rgb(185, 105, 105);
+}
+.pages li{
+	color: #aaadba;
+}
+.pages h5 {
+	color: #fff;
+	font-weight: 600;
+	position: relative;
+}
+.pages h5::before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: -7px;
+	width: 2px;
+	height: 21px;
+	background-color: #3864ee;
+}
+hr{
+	background-color: #fff;
+}
+
+
+.fooder-menu {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.fooder-menu strong {
+	color: #aaadba;
+	text-align: center;
+}
